@@ -1,0 +1,33 @@
+#orb{
+  width: 400px;
+  height: 400px;
+  background-color: grey;
+  border-radius: 100%;
+  margin: 100px auto 0 auto;
+}
+
+
+.sun{
+  background: red; /* For browsers that do not support gradients */
+    background: linear-gradient(red, yellow); /* Standard syntax */
+  /*background-color: #ffdd00 !important;*/
+  border: 10px solid #f1c40f;
+}
+
+.moon{
+  background: red; /* For browsers that do not support gradients */
+  background: linear-gradient(white, grey, black); /* Standard syntax */
+  /*background-color: #bdc3c7 !important;*/
+  border: 10px solid #eaeff2;
+}
+
+.daysky{
+  /*background-color: rgb(25, 50, 100);*/
+  background: linear-gradient(skyblue,teal,blue,darkblue);
+  /* Standard syntax */
+}
+
+.nightsky{
+  /*background-color: rgb(80, 80, 150);*/
+  background: linear-gradient(black,indigo,darkblue,blue);
+}
